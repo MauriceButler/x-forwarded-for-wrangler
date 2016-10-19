@@ -1,0 +1,22 @@
+{
+  "name": "x-forwarded-for-wrangler",
+  "version": "1.0.0",
+  "description": "Wrangles the x-forwarded-for header value to get a best guess client ip address (left most non private ip)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauriceButler/x-forwarded-for-wrangler.git"
+  },
+  "author": "Maurice Butler <maurice.butler@gmail.com> (http://maur.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/x-forwarded-for-wrangler/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/x-forwarded-for-wrangler#readme",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
+}

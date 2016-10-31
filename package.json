@@ -1,6 +1,6 @@
 {
   "name": "x-forwarded-for-wrangler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrangles the x-forwarded-for header value to get a best guess client ip address (left most non private ip)",
   "main": "index.js",
   "scripts": {
